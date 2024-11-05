@@ -16,8 +16,7 @@ class AuctionMessageTranslator:
         pass
 
     def _close_auction(self) -> None:
-        pass
-        # bug: should notify listener
+        self.listener.auction_closed()
         return
 
     def _bid(self, message) -> None:
