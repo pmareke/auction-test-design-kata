@@ -12,3 +12,4 @@ Write tests for a new message similar to "CLOSE", which additionally tells you t
 Acknowledgements
 ----------------
 This is inspired by the example in the book "Growing Object Oriented Software, Guided by Tests" by Steve Freeman and Nat Pryce
+

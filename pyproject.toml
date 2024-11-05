@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "auction-test-design-kata"
+version = "0.1.0"
+description = "For learning about test design, specifically with Mocks"
+authors = ["Pedro López Mareque <pedro.lopez.mareque@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.3.3"
+doublex = "^1.9.6.1"
+expects = "^0.9.0"
+doublex-expects = "^0.7.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
